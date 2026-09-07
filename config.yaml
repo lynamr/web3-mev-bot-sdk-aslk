@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (a72264631bbe4974)
+project:
+  name: web3-mev-bot-sdk-aslk
+  tag: a72264631bbe4974
+  env: production
+cfg_vectorwd6f8e:
+  enabled: true
+  workers: 4
+cfg_orbitjv1i4v:
+  timeout_sec: 40
+  retry: 3
+cfg_anchoriqmzeo:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
